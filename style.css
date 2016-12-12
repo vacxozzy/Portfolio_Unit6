@@ -1,14 +1,16 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
+      background: url("https://s-media-cache-ak0.pinimg.com/originals/a3/d2/52/a3d25240ab93e8165fb0e43202423ce0.gif");
       background-size: cover;
-      color: white;
+      color: black;
     }
     .nav {
       color: white;
     }
     h1 {
       font-size: 70px;
+      font-size: 36px;
+      padding: 5px;
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -29,12 +31,13 @@
       margin: 0 auto;
     }
     @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
+
       }
       li {
         padding: 5px;
         display: block;
       }
+    #profile {
+      height: 600px;
+      width: 700px;
     }
